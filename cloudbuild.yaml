@@ -1,7 +1,7 @@
 steps:
 #First Clone from Google Cloud Source Repository  
 - name: 'gcr.io/cloud-builders/git'
-  args: ['clone','https://source.developers.google.com/p/${_PROJECT}/r/${_REPO_NAME}']
+  args: ['clone','https://github.com/supratipb/gcp.git']
 
 #Build the image 
 - name: 'gcr.io/cloud-builders/docker'
@@ -9,7 +9,7 @@ steps:
 
 #Push the image  
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push','gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}']
+  args: ['push','gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}'] 
   
 #Update the container image using kubectl set
 - name: 'gcr.io/cloud-builders/kubectl'
