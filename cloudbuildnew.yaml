@@ -4,7 +4,7 @@ steps:
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/supratipb/gcp.git']
   
-- name: 'export 
+- name: 'export'
   args: ['GOOGLE_APPLICATION_CREDENTIALS="/home/key.json"']
 
 - name: 'gcr.io/cloud-builders/curl'
