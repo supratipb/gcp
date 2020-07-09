@@ -3,9 +3,13 @@ steps:
 #First Clone from Google Cloud Source Repository  
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/supratipb/gcp.git']
+
+#First Clone from Google Cloud Source Repository  
+- name: 'gcr.io/cloud-builders/zip'
+args: ['dialogflow.zip', '-r', '/gcp'']
   
-- name: 'export'
-  args: ['GOOGLE_APPLICATION_CREDENTIALS="/home/key.json"']
+#- name: 'export'
+#  args: ['GOOGLE_APPLICATION_CREDENTIALS="/home/key.json"']
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
