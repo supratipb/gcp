@@ -6,10 +6,7 @@ steps:
 
 #First Clone from Google Cloud Source Repository  
 - name: 'gcr.io/cloud-builders/zip'
-args: ['dialogflow.zip', '-r', '/gcp']
-  
-#- name: 'export'
-#  args: ['GOOGLE_APPLICATION_CREDENTIALS="/home/key.json"']
+  args: ['dialogflow.zip', '-r', '/gcp']
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
