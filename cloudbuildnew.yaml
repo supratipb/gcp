@@ -5,8 +5,8 @@ steps:
   args: ['clone','https://github.com/supratipb/gcp.git']
 
 #First Clone from Google Cloud Source Repository  
-- name: 'gcr.io/cloud-builders/zip'
-  args: ['dialogflow.zip', '-r', '/gcp']
+#- name: 'gcr.io/cloud-builders/zip'
+#  args: ['dialogflow.zip', '-r', '/gcp']
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
