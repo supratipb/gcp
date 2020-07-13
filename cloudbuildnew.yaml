@@ -4,15 +4,6 @@ steps:
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/supratipb/gcp.git']
 
-#First Clone from Google Cloud Source Repository  
-#- name: 'gcr.io/cloud-builders/zip'
-#  args: ['dialogflow.zip', '-r', '/gcp']
-
-#Build the image 
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['build','-t','gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}','.']
-
-
 - name: 'gcr.io/cloud-builders/curl'
   args: [
   '-H', 'Authorization: Bearer MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDj93AetA6FUmTx\noU4yBdsla9xfBZT8mIlEkNMsWY03z/sN+IfoRjkKEp/8azGtVehNPWyVd3eKnMUr\nG2/esjTS9v/WW1zibq8gJFi6K0NHLf1bxfaWXUXhlPNl13fK32QNx/emwv87fqO8\nwUeVc9YM7v6RJbuL3Vjja9Oa/vWQ4lUGMegjjVuLQ+nELSXPs711DXim2dMLTtce\nVmLfgw0gL8o+Cg9yedx7AymlRIoaohtKJwk4HxC8GJbmZdq4Xj+rqW4zxg4LXQS4\nHmZ/45lMWvnkEsZYwanPEewFu5lkDIdDwwewE64If238oDDEGF2BjlcaQWadGXwd\nvk+5fz2BAgMBAAECggEAB6vT/4yAS7vM2jokJyE047z7qYPG7ejQ/2p1od9bA7Em\nENHJ1ibqy3VV/VIEHyZ3IPP7jaV7c4sBshtNLsdX+5NpPmbfFoNEkPQcu2MNvJiq\nzdzdT+finFU0L+ATGNPMnMZkqkIBJk+8Jc8hO3hS67k2R18ed+Oicgnbftc+jPDf\nboDCYKSX9phaLVREbu5Wu1uaS7ap6CwYrnQJMJ1pJoOYUWu7EVmDZhguf5+X109T\npFI6XhCmYsJGgH6Vhb7RSFdK6yGfWqwb+YCWSc2JlgBw9fog0agMZvZ/REcbeqhe\nXU8eKLtvJDi5VZVYeSD5eQHIGd8e+Jq0oGsBHeYXuwKBgQD2895JRw1odfjep13g\nPWwK45K6uOYSI/BBpyDEqfgg53j0Ob/CtrhvGvicAhqpz6ggsLgl77R4nJynCowS\ngsZmE3Wc/eHOu//MIhomuQRMj0zJRDc4/EzkiJiCmPy0g/8fJPsjthkWb/G7RJ3n\ntlZHgmvTSGYu3sFElKq3+EuKBwKBgQDsUYCVJ7DB7yP3lwIG1vwo35il6e1dBuB0\nOCK63RgHojhLSBWK0bGaZM7LP83gt/195yXb+irhOR6LXiACU+JN7CUk8mb/Y8pU\nEVISk3oXDgbsMiaY62zcrC5hWaG+lmRMjiVfYTJ7tcnSUs6QkiVyn4M7IqGV0U2m\n0WE42Ek6NwKBgDQRcxrMKl2OEi0P6NEw4ijhlrxb49aLUUrmbBhLJg/5/hywWGg7\nkmOKskRihTCsoexSlmEZS1nq23S02pfEjwRSsgep2AR4yxRFVHI5rFhgFnaRNXuE\nZsoAqvdOPmnpMs9kQrdi26NJcxRjAVArt8FYFFf1+eWD/gfxuJUVewfdAoGBAK4d\nBp3elm7s4RUkn4umjjcXNwLXLdminXFDguMmzvOg49UjkSusgCx/JZW+ttNg/FXt\nHonK8hjq2sRYX0EXyN8co+lq59Q3E/WIpW2mVwfxf8w6zxFQM+8KtUlonrErYU6+\nVG7H0EgxkjdyZ1tBMnIXcLr7Mw6NHadREU6unJVVAoGBAPOKYBUVsH9LP4Kp1Xrc\nNCZ3zJnRz07I8klFmJTFMwIAIugl9OHzWCeHDBElv9nV++3bB6R/eqWAANK3AFzH\nq6xiFC7wNWLlmjTosRQUVM6eRLWYjXKWjTT3ARVe7MFVJJg/gPKgwjDWw6hTDxar\nG9hP/QEZwhztKiEEEI70Sgnl',
