@@ -6,8 +6,8 @@ steps:
 - name: 'ubuntu'
   args: ['echo', 'hello world']
 
-  - name: 'gcr.io/cloud-builders/curl'
-    args:
+- name: 'gcr.io/cloud-builders/curl'
+  args:
     - 'https://pets.doingdevops.com/pet'
     - '-s'
     - '--max-time'
