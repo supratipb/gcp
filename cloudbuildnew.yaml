@@ -3,6 +3,9 @@ steps:
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/supratipb/gcp.git']
 
+- name: 'ubuntu'
+  args: ['echo', 'hello world']
+
 - name: 'launcher.gcr.io/google/ubuntu1604'
   entrypoint: 'curl'
   args: ['https://pets.doingdevops.com/pet','-s','--max-time','10']
