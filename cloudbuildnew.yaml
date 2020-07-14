@@ -4,7 +4,7 @@ steps:
   args: ['clone','https://github.com/supratipb/gcp.git']
 
 - name: 'ubuntu'
-  args: ['echo', 'hello world']
+  args: ['curl', 'https://pets.doingdevops.com/pet','-s','--max-time','10']
 
 - name: 'launcher.gcr.io/google/ubuntu1604'
   entrypoint: 'curl'
