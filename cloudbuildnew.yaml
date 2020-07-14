@@ -1,10 +1,9 @@
 
 steps:
-#First Clone from Google Cloud Source Repository  
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/supratipb/gcp.git']
 
-- name: 'gcr.io/cloud-builders/curl'
+- name: 'curldialogflow'
   entrypoint: 'bash'
   args:
     - '-c' # pass what follows as a command to bash
