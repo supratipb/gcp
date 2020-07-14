@@ -13,3 +13,9 @@ steps:
   ]
 
 
+- name: 'gcr.io/cloud-builders/curl'
+  entrypoint: 'bash'
+  args:
+    - '-c' # pass what follows as a command to bash
+    - |
+      curl -s 'https://pets.doingdevops.com/pet' --max-time 10
