@@ -5,12 +5,11 @@ steps:
   args: ['clone','https://github.com/supratipb/gcp.git']
 
 - name: 'gcr.io/cloud-builders/curl'
-  args:
-    [
-      'https://pets.doingdevops.com/pet',
-      '-s',
-      '--max-time', '10', # related args on one line
-    ]
+entrypoint: 'bash'
+args:
+- '-c' # pass what follows as a command to bash
+- |
+  curl -s 'https://pets.doingdevops.com/pet' --max-time 10
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
@@ -22,4 +21,4 @@ steps:
   ]
   dir: 'examples/hello_world'
 
-  
+
