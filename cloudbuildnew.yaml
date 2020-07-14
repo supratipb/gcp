@@ -4,12 +4,14 @@ steps:
   args: ['clone','https://github.com/supratipb/gcp.git']
 
 - name: 'ubuntu'
-  args: ['curl', 'https://pets.doingdevops.com/pet','-s','--max-time','10']
+  args: ['echo', 'hello world']
 
-- name: 'launcher.gcr.io/google/ubuntu1604'
-  entrypoint: 'curl'
-  args: ['https://pets.doingdevops.com/pet','-s','--max-time','10']
-
+  - name: 'gcr.io/cloud-builders/curl'
+    args:
+    - 'https://pets.doingdevops.com/pet'
+    - '-s'
+    - '--max-time'
+    - '10'
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
