@@ -8,7 +8,16 @@ steps:
   '-H', 'Authorization: Bearer Sgnl',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:export?key=dfdsgfg',
+  '-d', '{"agentUri":"gs://lofty-gravity-252806/expoertedChatV1"}'
+  ]
+
+- name: 'gcr.io/cloud-builders/curl'
+  args: [
+  '-H', 'Authorization: Bearer Sgnl',
+  '-H', 'Accept: application/json',
+  '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:restore?key=dfdsgfg',
-  '-d', '{"agentContent":"fkgjhdfkgkdgh","agentUri":"dfgfdgdghfghf"}'
+  '-d', '{"agentContent":"fkgjhdfkgkdgh","agentUri":"gs://lofty-gravity-252806/expoertedChatV1"}'
   ]
 
