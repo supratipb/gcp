@@ -3,15 +3,12 @@ steps:
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/supratipb/gcp.git']
 
-- name: 'ubuntu'
-  args: ['echo', 'hello world']
-
 - name: 'gcr.io/cloud-builders/curl'
   args: [
   '-H', 'Authorization: Bearer Sgnl',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
-  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:restore?key=[YOUR_API_KEY]',
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:restore?key=dfdsgfg',
   '-d', '{"agentContent":"fkgjhdfkgkdgh","agentUri":"dfgfdgdghfghf"}'
   ]
 
