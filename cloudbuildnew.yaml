@@ -8,7 +8,7 @@ steps:
   '-H', 'Authorization: Bearer Sgnl',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
-  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:export?key=dfdsgfg',
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:export',
   '-d', '{"agentUri":"gs://lofty-gravity-252806/expoertedChatV1"}'
   ]
 
