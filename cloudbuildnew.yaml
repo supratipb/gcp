@@ -8,7 +8,7 @@ steps:
   '-H', 'Authorization: Bearer AIzaSyBhHI2pGFetSJGkFCvr6L-quUO4aeKA1C8',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
-  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:export?key=AIzaSyBhHI2pGFetSJGkFCvr6L-quUO4aeKA1C8',
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:export?key=AIzaSyBhHI2pGFetSJGkFCvr6L-quUO4aeKA1C8',
   '-d', '{"agentUri":"gs://lofty-gravity-252806/expoertedChatV1"}'
   ]
 
