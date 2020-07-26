@@ -5,7 +5,7 @@ steps:
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
-  '-H', 'Authorization: Bearer ya29.c.Ko8B1QcPLyDRwAFXgDrnJPCcswuawsHiYnSirmBjJeXbrpZMbClQ8W71Alf7XgCBi2874SwnH0by_-MDOX4CkDtLMEmKFdQDKYbRRdAoM7cgutQGA7hGIQSz0l2dpUPobOXMuXJb-jaD2uyhSD-mPPkLe3ISf9ZJCrnKQIdIGGx6eMmiNdMDDHxMApC9ntg3dZM',
+  '-H', 'Authorization: Bearer ya29.c.Ko8B1Qdv5sc802ndfTCwaPOfolmasDeL9Nmo5oloQFb5OjJ1agIN76Fti3fkkZPqrFMfno-snhXlVwXtFGsmXzhkB_L7fyfLhH_QkCET4EcSM8bITOvRQC73MDY_J0xD6fUxKxv9Z9Y3pKv2j1QmnxguWopZ953QHrVqpof2Qy68pqtY-MjPvHqbCAk9_tRRPUI',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:export?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
@@ -14,7 +14,7 @@ steps:
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
-  '-H', 'Authorization: Bearer ya29.c.Ko8B1QcPLyDRwAFXgDrnJPCcswuawsHiYnSirmBjJeXbrpZMbClQ8W71Alf7XgCBi2874SwnH0by_-MDOX4CkDtLMEmKFdQDKYbRRdAoM7cgutQGA7hGIQSz0l2dpUPobOXMuXJb-jaD2uyhSD-mPPkLe3ISf9ZJCrnKQIdIGGx6eMmiNdMDDHxMApC9ntg3dZM',
+  '-H', 'Authorization: Bearer ya29.c.Ko8B1Qdv5sc802ndfTCwaPOfolmasDeL9Nmo5oloQFb5OjJ1agIN76Fti3fkkZPqrFMfno-snhXlVwXtFGsmXzhkB_L7fyfLhH_QkCET4EcSM8bITOvRQC73MDY_J0xD6fUxKxv9Z9Y3pKv2j1QmnxguWopZ953QHrVqpof2Qy68pqtY-MjPvHqbCAk9_tRRPUI',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:restore?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
