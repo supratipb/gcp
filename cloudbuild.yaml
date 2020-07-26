@@ -8,11 +8,11 @@ steps:
   '-H', 'Authorization: Bearer ya29.a0AfH6SMADLznZ9-_07K4tz0StUnQDEoOD7FZz_jzoZuzpwkgfWpeRmVDhjEXxtipaiYAB0iWu8zhEUgiGR_CzNBPoJhcsaPWKGQGAQQFYQz3GwjH-nsoN3_AfzqsnMfdGd6SUsuv0Q58rVdEVqKyBV1JjBxTkQw4tyhKYKyf_l1w',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
-  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:export?key=AIzaSyBRnFE0x9fH4zZi_2WLpc9a4A0usa5bUSc',
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:export',
   '-d', '{"agentUri":"gs://lofty-gravity-252806/expoertedChatV1"}'
   ]
 
-  
+
 - name: 'gcr.io/cloud-builders/curl'
   args: [
   '-H', 'Authorization: Bearer ya29.a0AfH6SMBZmhI82xdNf_q3E5LTfOBQhM07pQ_hSyg8dBANAEfmIqJE0IJKl1bD71HwjMr7cCHkPY5V1tjRpLdBEH-M0smB4My_UIo6-NsNHr-pyVM0wTUMmW5yGMoNFm7Qa25Wdtf0JIDevtYXSEMUrKEXrY7iBxR5mYUbGh9CbCWt',
