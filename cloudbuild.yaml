@@ -5,7 +5,7 @@ steps:
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
-  '-H', 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbklkIjoiMWU2NWQ3Y2MtMTFiNS00OTFhLWI1YzUtNzY0MjUwMTQzNWQ1IiwiaWF0IjoxNTk1NzYwOTk4LCJhdWQiOiJ0cmlmYWN0YSIsImlzcyI6ImRhdGFwcmVwLWFwaS1hY2Nlc3MtdG9rZW5AdHJpZmFjdGEtZ2Nsb3VkLXByb2QuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJzdWIiOiJkYXRhcHJlcC1hcGktYWNjZXNzLXRva2VuQHRyaWZhY3RhLWdjbG91ZC1wcm9kLmlhbS5nc2VydmljZWFjY291bnQuY29tIn0.CnsDofdxjbX1GPlfOWeQPfsxRXTUoYsAoK3Jxbj8KbQ5ruhr0wVM56_sLG_2cxzqgwMR20PBPdj-8zMGvAz5eiz2bNV59FpHAjcA3Rf2QZTleZfJDOV7-eVCwuCJDIoEDdoT-69x4Yz7wJBxd7-5YG9u0X34aBr8akENKU2OnDT4asvxhv9B46fmmJ19S12Wi40XpVVhFcNx5jkjTB86AqNwJ-7q4Hmh_1zBa2adZ_pg3f4MpvGM5tyIRw6KwPc7rLFOhUeOf7i36VYTPSpr7pANkjAabWH6his9v3TB6I-_mCzcQn4_iKQH5hC78rVoDNMmAUpCRnh3dopWwYCjPA',
+  '-H', 'Authorization: Bearer ya29.a0AfH6SMAQyF1t4pLhy2vdMzpwaJ7yhXHx7FIUgy78QGNdQwQ-_ysD5vEP8aJw6UKGE7r6I4h4JzAvyLNwW7YJt81RcNUfDx_5ru0_WqRDIaHBLvhJtvCFBTynriPUV7oa7FPHodqbxLRWvu4IzOlSI6sVpA5kaveFTw-82T8qcpU',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:export?key=AIzaSyBhHI2pGFetSJGkFCvr6L-quUO4aeKA1C8',
@@ -17,6 +17,6 @@ steps:
   '-H', 'Authorization: Bearer ya29.a0AfH6SMBZmhI82xdNf_q3E5LTfOBQhM07pQ_hSyg8dBANAEfmIqJE0IJKl1bD71HwjMr7cCHkPY5V1tjRpLdBEH-M0smB4My_UIo6-NsNHr-pyVM0wTUMmW5yGMoNFm7Qa25Wdtf0JIDevtYXSEMUrKEXrY7iBxR5mYUbGh9CbCWt',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
-  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:restore?key=AIzaSyBhHI2pGFetSJGkFCvr6L-quUO4aeKA1C8',
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:restore?key=AIzaSyBhHI2pGFetSJGkFCvr6L-quUO4aeKA1C8',
   '-d', '{"agentContent":"fkgjhdfkgkdgh","agentUri":"gs://lofty-gravity-252806/expoertedChatV1"}'
   ]
