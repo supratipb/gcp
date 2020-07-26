@@ -8,7 +8,7 @@ steps:
   '-H', 'Authorization: Bearer ya29.a0AfH6SMBI6E21R0mRbtS28L_mevCvJTGBVE6tb6d1PZ8J8UMZYjxIjqLcQZqXkXCj2_zX7cVX-jhYi-FfbygVp8-FIZrwdVQWewlBuDwTig6pkre3jetwWDrvtEyt0o8n7fnQHYC4IfCilOxSTfFm6UjBVGCOAj3wBM50yORb_Aw',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
-  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:export',
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:export?key=AIzaSyBJ7ek8JKKOwFkkbJ5t-FWSt9gFZnC4U6s',
   '-d', '{"agentUri":"gs://lofty-gravity-252806/expoertedChatV1"}'
   ]
 
