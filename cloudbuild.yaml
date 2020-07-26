@@ -9,7 +9,7 @@ steps:
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:export?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
-  '-d', '{"agentUri":"gs://dialogflowpipeline2/expoertedChatV1"}'
+  '-d', '{"agentUri":"gs://dialogflowpipeline2/expoertedChatV1.zip"}'
   ]
 
 - name: 'gcr.io/cloud-builders/curl'
@@ -18,5 +18,5 @@ steps:
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:restore?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
-  '-d', '{"agentUri":"gs://dialogflowpipeline2/expoertedChatV1"}'
+  '-d', '{"agentUri":"gs://dialogflowpipeline2/expoertedChatV1.zip"}'
   ]
