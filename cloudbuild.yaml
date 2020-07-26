@@ -17,6 +17,6 @@ steps:
   '-H', 'Authorization: Bearer ya29.c.Ko8B1QcPLyDRwAFXgDrnJPCcswuawsHiYnSirmBjJeXbrpZMbClQ8W71Alf7XgCBi2874SwnH0by_-MDOX4CkDtLMEmKFdQDKYbRRdAoM7cgutQGA7hGIQSz0l2dpUPobOXMuXJb-jaD2uyhSD-mPPkLe3ISf9ZJCrnKQIdIGGx6eMmiNdMDDHxMApC9ntg3dZM',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
-  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:restore?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
-  '-d', '{"agentContent":"fkgjhdfkgkdgh","agentUri":"gs://lofty-gravity-252806/expoertedChatV1"}'
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:restore?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
+  '-d', '{"agentContent":"","agentUri":"gs://dialogflowpipeline2/expoertedChatV1"}'
   ]
