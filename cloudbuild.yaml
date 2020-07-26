@@ -5,7 +5,7 @@ steps:
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
-  '-H', 'Authorization: Bearer ya29.a0AfH6SMCuz6yk7lgl8jeHxA_U_bYQx6pFgPwB4mWC8GAedHzv7A_Cfmm8HlRyDJ1vvukcoUdv8025jsbq-pbZQINiHC7Gzwe9E39t_x61BDyd7LYSYGvWT4hgaWl4QCJ-Dzc47hSrNL1SzjSePajZUUpRHKITbEb2WYbJZTPdIA',
+  '-H', 'Authorization: Bearer ya29.a0AfH6SMAwSfvtK3zIqhJOQZ1sfG3g9OkkmFWQp6xKZnusU1tLn_TkjSJSCA4xMk222t1jcPpvPCj6_wiSnvbNAmMEb4T9OqIuYDm1fVYMxAI0IpZheGyRA_u-y5QWvUpWTk5DrrFABe2PSgcLAu9wfCgUEKhOsyv5uJCVMswrBA',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:export?key=AIzaSyBhHI2pGFetSJGkFCvr6L-quUO4aeKA1C8',
