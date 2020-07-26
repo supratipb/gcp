@@ -5,7 +5,7 @@ steps:
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
-  '-H', 'Authorization: Bearer $(gcloud auth application-default print-access-token)',
+  '-H', 'Authorization: Bearer 4/2QHs-puUs05PxqxOEFUn2lDYBHkZ4CcxD1tSDDaFrPfqpF0ix__KgKiE5ftUo1ynthpvJ4Rprj41Zgg_e4eS2yE',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:export?key=AIzaSyBhHI2pGFetSJGkFCvr6L-quUO4aeKA1C8',
