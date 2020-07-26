@@ -5,8 +5,8 @@ steps:
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
-'-H', 'Authorization: Bearer ya29.c.Ko8B1QcPLyDRwAFXgDrnJPCcswuawsHiYnSirmBjJeXbrpZMbClQ8W71Alf7XgCBi2874SwnH0by_-MDOX4CkDtLMEmKFdQDKYbRRdAoM7cgutQGA7hGIQSz0l2dpUPobOXMuXJb-jaD2uyhSD-mPPkLe3ISf9ZJCrnKQIdIGGx6eMmiNdMDDHxMApC9ntg3dZM',
-'-H', 'Accept: application/json',
+  '-H', 'Authorization: Bearer ya29.c.Ko8B1QcPLyDRwAFXgDrnJPCcswuawsHiYnSirmBjJeXbrpZMbClQ8W71Alf7XgCBi2874SwnH0by_-MDOX4CkDtLMEmKFdQDKYbRRdAoM7cgutQGA7hGIQSz0l2dpUPobOXMuXJb-jaD2uyhSD-mPPkLe3ISf9ZJCrnKQIdIGGx6eMmiNdMDDHxMApC9ntg3dZM',
+  '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:export?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
   '-d', '{"agentUri":"gs://dialogflowpipeline2/expoertedChatV1"}'
@@ -14,9 +14,9 @@ steps:
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
-  '-H', 'Authorization: Bearer ya29.a0AfH6SMBZmhI82xdNf_q3E5LTfOBQhM07pQ_hSyg8dBANAEfmIqJE0IJKl1bD71HwjMr7cCHkPY5V1tjRpLdBEH-M0smB4My_UIo6-NsNHr-pyVM0wTUMmW5yGMoNFm7Qa25Wdtf0JIDevtYXSEMUrKEXrY7iBxR5mYUbGh9CbCWt',
+  '-H', 'Authorization: Bearer ya29.c.Ko8B1QcPLyDRwAFXgDrnJPCcswuawsHiYnSirmBjJeXbrpZMbClQ8W71Alf7XgCBi2874SwnH0by_-MDOX4CkDtLMEmKFdQDKYbRRdAoM7cgutQGA7hGIQSz0l2dpUPobOXMuXJb-jaD2uyhSD-mPPkLe3ISf9ZJCrnKQIdIGGx6eMmiNdMDDHxMApC9ntg3dZM',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
-  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:restore?key=AIzaSyBhHI2pGFetSJGkFCvr6L-quUO4aeKA1C8',
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/lofty-gravity-252806/agent:restore?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
   '-d', '{"agentContent":"fkgjhdfkgkdgh","agentUri":"gs://lofty-gravity-252806/expoertedChatV1"}'
   ]
