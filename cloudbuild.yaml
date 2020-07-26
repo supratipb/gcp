@@ -5,8 +5,8 @@ steps:
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
-  '-H', 'Authorization: Bearer ya29.a0AfH6SMCgdRtDBMuj4DR_y2j6JgSQ6yblgEFv-PZLRpyn2Jp1T7jeweM0aZsTOR088nOCo0n7kG1grncJ_wF3KFgIAyH0z-IgQz3U1UYH7YxWpl8KGwVsPulmY0xy0PizYx71AQzcUopVPShiXW8FQp_MU0YE2r0knCG6TBOmwho',
-  '-H', 'Accept: application/json',
+'-H', 'Authorization: Bearer ya29.c.Ko8B1QcPLyDRwAFXgDrnJPCcswuawsHiYnSirmBjJeXbrpZMbClQ8W71Alf7XgCBi2874SwnH0by_-MDOX4CkDtLMEmKFdQDKYbRRdAoM7cgutQGA7hGIQSz0l2dpUPobOXMuXJb-jaD2uyhSD-mPPkLe3ISf9ZJCrnKQIdIGGx6eMmiNdMDDHxMApC9ntg3dZM',
+'-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:export?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
   '-d', '{"agentUri":"gs://dialogflowpipeline2/expoertedChatV1"}'
