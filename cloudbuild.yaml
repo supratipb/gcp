@@ -5,7 +5,7 @@ steps:
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
-  '-H', 'Authorization: Bearer ss',
+  '-H', 'Authorization: Bearer ya29.a0AfH6SMCc2fI395GnvVFJPMFqX8mUJd5fwr5ZlKT3L88kKBtHyyu7P53wD9eovpAlM20mTsLi_Wq-ozg4ILwSb6Xh2r4uZcyZUWR5EtxIchp-mbsE2-_0K5sgtrkoGNhzIeUUHGQuknc_CD649K4qAZsb8sMVcBeV-kh8cZ3tmas',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:export?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
