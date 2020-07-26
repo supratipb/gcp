@@ -5,10 +5,10 @@ steps:
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
-  '-H', 'Authorization: Bearer no5XU29EAC2ZaxGURLWYI1R-',
+  '-H', 'Authorization: Bearer ya29.a0AfH6SMBZmhI82xdNf_q3E5LTfOBQhM07pQ_hSyg8dBANAEfmIqJE0IJKl1bD71HwjMr7cCHkPY5V1tjRpLdBEH-M0smB4My_UIo6-NsNHr-pyVM0wTUMmW5yGMoNFm7Qa25Wdtf0JIDevtYXSEMUrKEXrY7iBxR5mYUbGh9CbCWt',
   '-H', 'Accept: application/json',
   '-H', 'Content-Type: application/json',
-  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:export?key=AIzaSyBhHI2pGFetSJGkFCvr6L-quUO4aeKA1C8',
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/lofty-gravity-252806/agent:export?key=AIzaSyAa8yy0GdcGPHdtD083HiGGx_S0vMPScDM',
   '-d', '{"agentUri":"gs://lofty-gravity-252806/expoertedChatV1"}'
   ]
 
