@@ -3,14 +3,12 @@ steps:
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/supratipb/gcp.git']
 
-- name: 'gcr.io/cloud-builders/curl'
-  args: [
-  '-H', 'Authorization: Bearer ya29.c.Ko8B1Qdv5sc802ndfTCwaPOfolmasDeL9Nmo5oloQFb5OjJ1agIN76Fti3fkkZPqrFMfno-snhXlVwXtFGsmXzhkB_L7fyfLhH_QkCET4EcSM8bITOvRQC73MDY_J0xD6fUxKxv9Z9Y3pKv2j1QmnxguWopZ953QHrVqpof2Qy68pqtY-MjPvHqbCAk9_tRRPUI',
-  '-H', 'Accept: application/json',
-  '-H', 'Content-Type: application/json',
-  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:export?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
-  '-d', '{"agentUri":"gs://dialogflowpipeline2/expoertedChatV1.zip"}'
-  ]
+#zip
+
+#send zip file to bucket
+
+#get permanent access key, api key and save it
+
 
 - name: 'gcr.io/cloud-builders/curl'
   args: [
@@ -20,3 +18,21 @@ steps:
   '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:restore?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
   '-d', '{"agentUri":"gs://dialogflowpipeline2/expoertedChatV1.zip"}'
   ]
+
+
+
+- name: 'gcr.io/cloud-builders/curl'
+  args: [
+  '-H', 'Authorization: Bearer ya29.c.Ko8B1Qdv5sc802ndfTCwaPOfolmasDeL9Nmo5oloQFb5OjJ1agIN76Fti3fkkZPqrFMfno-snhXlVwXtFGsmXzhkB_L7fyfLhH_QkCET4EcSM8bITOvRQC73MDY_J0xD6fUxKxv9Z9Y3pKv2j1QmnxguWopZ953QHrVqpof2Qy68pqtY-MjPvHqbCAk9_tRRPUI',
+  '-H', 'Accept: application/json',
+  '-H', 'Content-Type: application/json',
+  '-X', 'POST', 'https://dialogflow.googleapis.com/v2/projects/dialogflowpipeline2/agent:export?key=AIzaSyDkhKiORHrYSK88mGJmuaMUQAJgvQfVhqI',
+  '-d', '{"agentUri":"gs://dialogflowpipeline2/expoertedChatV1.zip"}'
+  ]
+
+#merge the code in github
+
+#restroe on test
+#restroe on prod
+
+
